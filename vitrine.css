@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgb(121, 136, 121);
+}
+nav h1{
+    color: blue;
+    font-family: "Playfair",sans-serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: rgb(10, 151, 198);
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(24, 26, 26);
+    padding-bottom: 5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('nissan_370z_nismo_4k-5120x2880.jpg');
+    background-size: cover;  
+    color: rgb(225, 211, 233) ;
+    padding: 40;
+    background-color: black;
+    
+}    
+header h1{
+    font-family: unset;
+    font-size: 50px;
+}
+
+header h3{
+    margin-top: -15px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+header button{
+    padding: 10px 20px;
+    background-color: rgb(169, 36, 192);
+    color: rgb(245, 245, 245);
+    border: none;
+    font-size: 20px;
+    font-family: Impact;
+    cursor: pointer;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: rgb(74, 83, 127);;
+    background-color: rgb(227, 243, 243);
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: rgb(91, 109, 138);
+    color: aliceblue;
+}
+
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: rgb(240, 244, 244)
+}
+
+.main .content .card .right img{
+    width:"300px";
+    height:"600px";
+    margin-top: 5px;
+    background-color: aqua;
+    
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: #000;
+    color: azure;
+    padding: 30px 100px;
+}
+
+footer h1{
+    font-family: unset;
+    border-bottom: 2px solid #fbf5f5;
+    width: 13%;
+    padding-bottom: 5px;
+    color: rgb(14, 14, 242);
+}
+
+footer h3{
+    color: chartreuse;
+}
+footer .loisirs{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .loisirs .loisir{
+    margin-right: 30px;
+    padding: 10px;
+}
+footer .loisirs .loisir p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(185, 56, 56);
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
